@@ -1,0 +1,46 @@
+.cetakdepan {
+  float: right;
+  width: 360px;
+  height: 230px;
+  margin-right: 1rem;
+  background-image: url('./img/1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 372px 230px;
+  -webkit-print-color-adjust: exact;
+}
+
+.cetakbelakang {
+  float: right;
+  width: 360px;
+  height: 230px;
+  margin-right: 1rem;
+  background-image: url('./img/2.jpeg');
+  background-repeat: no-repeat;
+  background-size: 360px 230px;
+  -webkit-print-color-adjust: exact;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9c9c9c;
+  background-color: #eaeaea;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login
+  .container
+  #login-row
+  #login-column
+  #login-box
+  #login-form
+  #register-link {
+  margin-top: -85px;
+}
