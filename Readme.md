@@ -1,11 +1,6 @@
-$host = "localhost"; 
-$username = "root"; $pass = ""; 
-$dbname = "card";
+// SET ENV define('DB_HOST', 'localhost'); define('DB_USER', 'root');
+define('DB_PASS', ''); define('DB_BASE', 'card');
 
-Sesuakan Data Data yang Ada pada Setting ENV di atas
+SILAKAN GANTI KONFIGURASI DATABASE NYA UNTUK MENGUNAKAN APPLIKASI INI
 
-Import Data card.sql Setelah itu
-
-Upload Data Ke Hosting
-
-Create By Hanan Asyrawi Rivai
+Create By : Hanan Asyrawi Rivai
