@@ -38,6 +38,7 @@ $query = mysqli_query($con, $sql);
                      font-size:12px;
 
                     ">
+                        <br />
                         <tr>
                             <td>
                                 <?=$barcode->getBarcode($data['nik'], $barcode::TYPE_CODE_128, 2, 12)?>

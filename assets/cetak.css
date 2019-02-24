@@ -1,0 +1,32 @@
+.cetakdepan {
+  /* float: right; */
+  width: 450px;
+  height: 300px;
+  margin-right: 1rem;
+  background-image: url('./img/1.jpeg');
+  /* background-repeat: no-repeat; */
+  background-size: 470px 300px;
+  transform: rotate(180deg);
+  -webkit-print-color-adjust: exact;
+}
+
+.cetakbelakang {
+  /* float: right; */
+  width: 450px;
+  height: 300px;
+  margin-right: 1rem;
+  background-image: url('./img/2.jpeg');
+  /* background-repeat: no-repeat; */
+  background-size: 450px 300px;
+  -webkit-print-color-adjust: exact;
+}
+
+.tbl {
+  margin-left: 65px;
+  z-index: -1;
+  font-size: 12px;
+  float: none;
+}
+.isitd {
+  margin-left: 1px;
+}

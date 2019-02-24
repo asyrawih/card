@@ -1,5 +1,5 @@
 <?php
-
+include "session.php";
 include "proses.php";
 $sql = "SELECT * FROM tcard";
 $query = mysqli_query($con, $sql);
@@ -21,6 +21,9 @@ $query = mysqli_query($con, $sql);
 <body>
     <!-- Panggil Header  -->
     <?php include "./tamplates/header.php";?>
+    <p>
+
+    </p>
     <div class="container">
         <div class="row col-sm12">
             <table class="table mt-4">
@@ -55,7 +58,7 @@ $query = mysqli_query($con, $sql);
                         </td>
                         <td>
                             <a href="edit.php?id=<?=$res['id'];?>" class=" btn btn-warning btn-small">EDIT</a>
-                            <a href="hapus.php?id=<?=$res['id'];?>" class=" btn btn-danger btn-small"             type="submit" name="hapus">HAPUS</a>
+                            <a href="hapus.php?id=<?=$res['id'];?>" class=" btn btn-danger btn-small" type="submit" name="hapus">HAPUS</a>
                         </td>
 
                     </tr>

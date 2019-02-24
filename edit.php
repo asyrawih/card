@@ -1,4 +1,6 @@
-<?php include "proses.php";
+<?php
+include "session.php";
+include "proses.php";
 $id = $_GET['id'];
 $result = mysqli_query($con, "SELECT * FROM tcard WHERE id='$id' ");
 

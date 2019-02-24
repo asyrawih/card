@@ -17,7 +17,10 @@
             </li>
         </ul>
     </div>
-     <li class="nav-item active">
-        <a class="btn btn-small btn-danger push-right" href="logout.php">LOGOUT<span class="sr-only">(current)</span></a>
-     </li>
+        <li class="nav-item active">
+            <a class="btn btn-small btn-danger push-right" href="logout.php">LOGOUT<span class="sr-only">(current)</span></a>
+        </li>
+
+
+
 </nav>

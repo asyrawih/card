@@ -1,7 +1,5 @@
-<?php include "proses.php";
-
-include "session.php";
-
+<?php
+include "proses.php";
 $result = mysqli_query($con, 'SELECT * FROM tcard');
 
 $hitung = mysqli_num_rows($result);

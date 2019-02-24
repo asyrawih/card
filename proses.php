@@ -35,6 +35,9 @@ if (isset($_POST['submit'])) {
         // Masukan Data Ke Database Setalah Di Cek Duplicate Entry Nya
         $insert = "INSERT INTO tcard(nama,nokk,nik,alamat) VALUES('$nama','$nokk','$nik','$alamat')";
         $query = mysqli_query($con, $insert);
+        echo "<script>
+            alert('Data berhasil Di tambahkan ');
+        </script>";
 
     }
 }
