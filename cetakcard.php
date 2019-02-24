@@ -79,7 +79,9 @@ $query = mysqli_query($con, $sql);
                         <tr>
                             <td>
                                 <b>ALAMAT </b>
-                                <?=strtoupper($data['alamat']);?>
+                                <b>
+                                    <?=strtoupper($data['alamat']);?>
+                                </b>
                             </td>
                         </tr>
                     </table>
